@@ -14,7 +14,6 @@ def test_model_prediction():
     model = IrisModel()
     model.train()
 
-    
     sample1 = [5.1, 3.5, 1.4, 0.2]
     sample2 = [5.1,3.5,1.4,0.2]
     sample3 = [4.9,3,1.4,0.2]
