@@ -1,1 +1,1 @@
-# This is Iris LogisticRegression Model On DataSet 
+# This is LogisticRegression Model On  Iris DataSet 
