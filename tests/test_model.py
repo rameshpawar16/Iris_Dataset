@@ -21,11 +21,11 @@ def test_model_prediction():
     sample4 = [4.7,3.2,1.3,0.2]
     sample5 = [4.6,3.1,1.5,0.2]
 
-    assert model.predict(sample1) == "setosa"
-    assert model.predict(sample2) == "setosa"
-    assert model.predict(sample3) == "setosa"
-    assert model.predict(sample4) == "setosa"
-    assert model.predict(sample5) == "setosa"
+    assert model.predict(sample1) == "Setosa"
+    assert model.predict(sample2) == "Setosa"
+    assert model.predict(sample3) == "Setosa"
+    assert model.predict(sample4) == "Setosa"
+    assert model.predict(sample5) == "Setosa"
 
     v1 =[ 7,3.2,4.7,1.4]
     v2 =[6.4,3.2,4.5,1.5]	
